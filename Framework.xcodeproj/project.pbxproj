@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		439CC8631EE1E04C005E3938 /* Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 439CC8611EE1E04C005E3938 /* Framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		439CC8951EE1E81E005E3938 /* CPF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439CC8941EE1E81E005E3938 /* CPF.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		439CC85E1EE1E04C005E3938 /* Framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		439CC8611EE1E04C005E3938 /* Framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Framework.h; sourceTree = "<group>"; };
 		439CC8621EE1E04C005E3938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		439CC8941EE1E81E005E3938 /* CPF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPF.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 			children = (
 				439CC8611EE1E04C005E3938 /* Framework.h */,
 				439CC8621EE1E04C005E3938 /* Info.plist */,
+				439CC8941EE1E81E005E3938 /* CPF.swift */,
 			);
 			path = Framework;
 			sourceTree = "<group>";
@@ -96,6 +99,7 @@
 					439CC85D1EE1E04C005E3938 = {
 						CreatedOnToolsVersion = 8.3.1;
 						DevelopmentTeam = J6VMS9V778;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -132,6 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				439CC8951EE1E81E005E3938 /* CPF.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +247,7 @@
 		439CC8671EE1E04C005E3938 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = J6VMS9V778;
@@ -254,6 +260,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.bepid.Framework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -261,6 +268,7 @@
 		439CC8681EE1E04C005E3938 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = J6VMS9V778;
@@ -296,6 +304,7 @@
 				439CC8681EE1E04C005E3938 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
