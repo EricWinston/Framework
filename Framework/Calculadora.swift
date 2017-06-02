@@ -34,7 +34,7 @@ public class Calculadora {
             return resultado
         }
         
-        for _ in 0...Int(numberB) {
+        for _ in 1...Int(numberB) {
             resultado *= numberA
         }
         
