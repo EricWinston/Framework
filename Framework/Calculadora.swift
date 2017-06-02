@@ -68,7 +68,11 @@ public class Calculadora {
             return resultado
         }
         
+<<<<<<< HEAD
         for _ in 0...Int(elevatedNumber) {
+=======
+        for _ in 1...Int(numberB) {
+>>>>>>> 524c04a580616c759aa6441c341b2738f032fd0f
             resultado *= numberA
         }
         
